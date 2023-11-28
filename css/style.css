@@ -1,0 +1,66 @@
+#landing{
+    background-image: url(../images/header_bg.jpg);
+    background-size: 100% 100%;
+}
+.child h1{
+    font-size: 50px;
+}
+.parent i:hover
+{
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.child button:hover{
+    color: white;
+}
+.ahmed:hover{
+    color: #FFC107;
+    transition: 0.5s;
+}
+@media (min-width : 0px) and (max-width: 768px){
+    #landing img{
+        width: 100px;
+    }
+    #landing p{
+        font-size: 15px;
+    }
+    #landing h1{
+        font-size: 30px;
+    }
+}
+#back{
+    background-image: url(../images/about_bg.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+}
+.parent{
+    height: 75vh;
+}
+@media (min-width : 0px) and (max-width: 768px){
+    #back p{
+        font-size: 15px;
+    }
+}
+#about i:hover{
+    cursor: pointer;
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+#clients{
+    background-image: url(../images/clients_bg.jpg);
+    background-size: 100% 100%;
+    height: 75vh; 
+}
+@media (min-width : 0px) and (max-width: 768px){
+    #clients p{
+        font-size: 15px;
+    }
+    #clients .row img{
+        width: 80px;
+    }
+}
+
+#contact button:hover{
+    color: white;
+}
